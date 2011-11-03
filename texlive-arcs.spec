@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/arcs
+# catalog-date 2006-10-12 15:06:10 +0200
+# catalog-license lppl
+# catalog-version 1
 Name:		texlive-arcs
 Version:	1
 Release:	1
@@ -46,6 +52,7 @@ and may be used both in text and in maths formulae.
 #- source
 %doc %{_texmfdistdir}/source/latex/arcs/arcs.dtx
 %doc %{_texmfdistdir}/source/latex/arcs/arcs.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -56,3 +63,5 @@ and may be used both in text and in maths formulae.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
