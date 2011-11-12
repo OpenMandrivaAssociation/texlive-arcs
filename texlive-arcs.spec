@@ -5,7 +5,7 @@
 # catalog-license lppl
 # catalog-version 1
 Name:		texlive-arcs
-Version:	1
+Version:	2
 Release:	1
 Summary:	Draw arcs over and under text
 Group:		Publishing
