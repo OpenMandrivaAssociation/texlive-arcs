@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version 1
 Name:		texlive-arcs
-Version:	2
-Release:	10
+Version:	1
+Release:	1
 Summary:	Draw arcs over and under text
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/arcs
