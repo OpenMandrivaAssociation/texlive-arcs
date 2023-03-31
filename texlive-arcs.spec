@@ -1,6 +1,6 @@
 Name:		texlive-arcs
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Draw arcs over and under text
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/arcs
