@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Draw arcs over and under text
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/arcs
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/arcs
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/arcs.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/arcs.doc.r%{version}.tar.xz
